@@ -1,6 +1,7 @@
 .img{
     border: 5px solid blue ;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     box-shadow: 30px 30px 30px black;
+    max-width: 200px;
 }
