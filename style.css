@@ -1,5 +1,5 @@
 div{
     size: 500px;
-    align-content: center;
-    box-shadow: 1 0 red;
+    border: 1px;
+    box-shadow: 1px  red;
 }
