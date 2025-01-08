@@ -1,4 +1,6 @@
 .img{
-    size: 300px;
     border: 5px solid blue ;
+    width: 400px;
+    height: 400px;
+    box-shadow: 30px 30px 30px black;
 }
