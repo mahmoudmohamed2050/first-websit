@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذكار الصباح والمساء</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>أذكار الصباح والمساء</h1>
+    </header>
+
+    <main>
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab('morning')">أذكار الصباح</button>
+            <button class="tab-button" onclick="openTab('evening')">أذكار المساء</button>
+        </div>
+
+        <div id="morning" class="tab-content active">
+            <h2>أذكار الصباح</h2>
+            <ul>
+                <li>اللهم بك أصبحنا وبك أمسينا، وبك نحيا وبك نموت وإليك النشور.</li>
+                <li>أصبحنا وأصبح الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير.</li>
+                <li>رضيت بالله رباً، وبالإسلام ديناً، وبمحمد صلى الله عليه وسلم نبياً.</li>
+                <!-- يمكنك إضافة المزيد من الأذكار هنا -->
+            </ul>
+        </div>
+
+        <div id="evening" class="tab-content">
+            <h2>أذكار المساء</h2>
+            <ul>
+                <li>اللهم بك أمسينا وبك أصبحنا، وبك نحيا وبك نموت وإليك المصير.</li>
+                <li>أمسينا وأمسى الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير.</li>
+                <li>رضيت بالله رباً، وبالإسلام ديناً، وبمحمد صلى الله عليه وسلم نبياً.</li>
+                <!-- يمكنك إضافة المزيد من الأذكار هنا -->
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 أذكار الصباح والمساء | جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
